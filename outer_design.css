@@ -1,0 +1,60 @@
+html{
+
+background-image: url(https://tse1.mm.bing.net/th?id=OIP.M09fa91112499a3113e411e3b918cfb3bo0&w=150&h=90&c=7&rs=1&qlt=90&pid=3.1&rm=2); 
+background-size: cover; 
+}
+.cat{
+	width:60px;
+	height: 60px;
+	position: absolute;
+	left: 20px;
+	top: 2px;
+}
+nav{ 
+
+
+	position: relative;
+	width: 100%;
+	height: 60px;
+	
+	background-size: 40px 40px;
+	background-repeat: no-repeat;
+	padding-left: 60px;
+	padding-right: 60px;
+	color: white;
+	background-color: grey;
+	text-align: left;
+}
+.box {
+  margin-top: 150px;
+  width: 600px;
+  height: 300px;
+  position: relative;
+  border: 10px dotted green;
+  margin-left: auto;
+  margin-right: auto;
+}
+.maincat, .maindog{
+	width: 200px;
+	height: 200px;  
+	position: absolute;
+}
+.maincat{
+	top:-90px;
+	left: -90px;
+
+}
+
+.maindog{
+	top:200px;
+	right:-90px;
+}
+
+li{
+		list-style-type:none;
+		display: inline-block;
+		
+}
+ul a:hover{
+color: white;
+}
